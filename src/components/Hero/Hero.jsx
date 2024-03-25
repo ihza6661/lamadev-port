@@ -35,6 +35,7 @@ const Hero = () => {
           initial="initial"
           animate="animate"
         >
+          <motion.h3 variants={textVariants}></motion.h3>
           <motion.h2 variants={textVariants}>Ihza Mahendra</motion.h2>
           <motion.h1 variants={textVariants}>Frontend Developer</motion.h1>
           <motion.div variants={textVariants} className="buttons">
@@ -43,15 +44,10 @@ const Hero = () => {
                 See My Works
               </motion.button></a>
             <a href="#Contact">
-              <motion.button class="button-85" role="button" variants={textVariants}>Contact Me</motion.button>
+              <motion.button class="button-85" role="button" variants={textVariants}>Contact</motion.button>
             </a>
           </motion.div>
-          <motion.img
-            variants={textVariants}
-            animate="scrollButton"
-            src="/scroll.png"
-            alt=""
-          />
+
         </motion.div>
       </div>
 

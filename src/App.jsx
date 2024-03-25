@@ -1,11 +1,11 @@
 import "./app.scss";
 import Hero from "./components/Hero/Hero";
 import Navbar from "./components/Navbar/Navbar";
+import About from "./components/about/About";
 import Contact from "./components/contact/Contact";
 import Cursor from "./components/cursor/cursor";
-import Parallax from "./components/parallax/parallax";
 import Portfolio from "./components/portfolio/Portfolio";
-import Services from "./components/services/services";
+
 
 const App = () => {
   return (
@@ -15,13 +15,10 @@ const App = () => {
         <Navbar />
         <Hero />
       </section>
-      <section id="Services">
-        <Parallax type="services" />
+      <section>
+        <About />
       </section>
-      <section><Services /></section>
-      <section id="Portfolio">
-        <Parallax type="portfolio" />
-      </section>
+
       <Portfolio />
       <section id="Contact">
         <Contact />

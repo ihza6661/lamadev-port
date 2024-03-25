@@ -9,25 +9,25 @@ const item = [
         id: 1,
         title: "HTML, CSS, JavaSript",
         img: "https://images.pexels.com/photos/19877487/pexels-photo-19877487/free-photo-of-sun-through-massive-redwood-trees-in-forest.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2.png",
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni fuga dolorem eveniet voluptatem commodi animi!."
+        desc: "isicing elit. Magni fuga dolorem eveniet voluptatem commodi animi!."
     },
     {
         id: 2,
         title: "React JS",
         img: "https://images.pexels.com/photos/19877487/pexels-photo-19877487/free-photo-of-sun-through-massive-redwood-trees-in-forest.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni fuga dolorem eveniet voluptatem commodi animi!."
+        desc: "isicing elit. Magni fuga dolorem eveniet voluptatem commodi animi!."
     },
     {
         id: 3,
         title: "Javascript App",
         img: "https://images.pexels.com/photos/19877487/pexels-photo-19877487/free-photo-of-sun-through-massive-redwood-trees-in-forest.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni fuga dolorem eveniet voluptatem commodi animi!."
+        desc: "isicing elit. Magni fuga dolorem eveniet voluptatem commodi animi!."
     },
     {
         id: 4,
         title: "Javascript App",
         img: "https://images.pexels.com/photos/19877487/pexels-photo-19877487/free-photo-of-sun-through-massive-redwood-trees-in-forest.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni fuga dolorem eveniet voluptatem commodi animi!."
+        desc: "isicing elit. Magni fuga dolorem eveniet voluptatem commodi animi!."
     },
 ];
 
@@ -75,7 +75,7 @@ const Portfolio = () => {
     return (
         <div className="portfolio" ref={ref}>
             <div className="progress">
-                <h1>featured works</h1>
+                <h1>My Projects</h1>
                 <motion.div style={{ scaleX }} className="progressBar"></motion.div>
             </div>
 

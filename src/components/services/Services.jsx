@@ -48,22 +48,22 @@ const Services = () => {
             <motion.div className="listContainer" variants={variants}>
                 <motion.div className="box" whileHover={{ background: "lightblue", color: "black" }}>
                     <h2>branding</h2>
-                    <p> rerum molestias ea qui ut ipsum dolore placeat cum consequuntur, quibusdam praesentium assumenda non rem fuga, nihil aperiam deleniti ullam!</p>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto aliquid veniam voluptatibus, blanditiis deleniti sed exercitationem</p>
                     <button>Go</button>
                 </motion.div>
                 <motion.div className="box" whileHover={{ background: "lightblue", color: "black" }}>
                     <h2>branding</h2>
-                    <p> rerum molestias ea qui ut ipsum dolore placeat cum consequuntur, quibusdam praesentium assumenda non rem fuga, nihil aperiam deleniti ullam!</p>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto aliquid veniam voluptatibus, blanditiis deleniti sed exercitationem</p>
                     <button>Go</button>
                 </motion.div>
                 <motion.div className="box" whileHover={{ background: "lightblue", color: "black" }}>
                     <h2>branding</h2>
-                    <p> rerum molestias ea qui ut ipsum dolore placeat cum consequuntur, quibusdam praesentium assumenda non rem fuga, nihil aperiam deleniti ullam!</p>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto aliquid veniam voluptatibus, blanditiis deleniti sed exercitationem</p>
                     <button>Go</button>
                 </motion.div>
                 <motion.div className="box" whileHover={{ background: "lightblue", color: "black" }}>
                     <h2>branding</h2>
-                    <p> rerum molestias ea qui ut ipsum dolore placeat cum consequuntur, quibusdam praesentium assumenda non rem fuga, nihil aperiam deleniti ullam!</p>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto aliquid veniam voluptatibus, blanditiis deleniti sed exercitationem</p>
                     <button>Go</button>
                 </motion.div>
             </motion.div>
