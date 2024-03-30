@@ -31,7 +31,7 @@ const Contact = () => {
     return (
         <div
             ref={ref}
-            className="contact">
+            className="contact" id="Contact">
             <div className="textContainer">
                 <h1>Contact Me</h1>
                 <div className="item"  >
