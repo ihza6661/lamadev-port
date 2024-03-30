@@ -2,32 +2,34 @@
 import { useRef } from "react";
 import "./portfolio.scss"
 import { motion, useScroll, useSpring, useTransform } from "framer-motion"
+import React from "react";
 
 
 const item = [
     {
         id: 1,
-        title: "HTML, CSS, JavaSript",
-        img: "https://images.pexels.com/photos/19877487/pexels-photo-19877487/free-photo-of-sun-through-massive-redwood-trees-in-forest.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2.png",
-        desc: "isicing elit. Magni fuga dolorem eveniet voluptatem commodi animi!."
+        title: "React App",
+        img: "/react.jpeg",
+        desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et hic, mollitia porro, dignissimos aspernatur fuga labore quaerat voluptates neque molestias quae. Incidunt facilis, corporis laborum deserunt illum, impedit ipsa perferendis alias sunt, distinctio autem nesciunt neque assumenda eligendi repudiandae possimus.",
+        button: "Visit",
+        link: "https://ihza-react.netlify.app/"
+
     },
     {
         id: 2,
         title: "React JS",
-        img: "https://images.pexels.com/photos/19877487/pexels-photo-19877487/free-photo-of-sun-through-massive-redwood-trees-in-forest.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-        desc: "isicing elit. Magni fuga dolorem eveniet voluptatem commodi animi!."
+        img: "/project-1.png",
+        desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et hic, mollitia porro, dignissimos aspernatur fuga labore quaerat voluptates neque molestias quae. Incidunt facilis, corporis laborum deserunt illum, impedit ipsa perferendis alias sunt, distinctio autem nesciunt neque assumenda eligendi repudiandae possimus.",
+        button: "Visit",
+        link: "https://"
     },
     {
         id: 3,
         title: "Javascript App",
-        img: "https://images.pexels.com/photos/19877487/pexels-photo-19877487/free-photo-of-sun-through-massive-redwood-trees-in-forest.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-        desc: "isicing elit. Magni fuga dolorem eveniet voluptatem commodi animi!."
-    },
-    {
-        id: 4,
-        title: "Javascript App",
-        img: "https://images.pexels.com/photos/19877487/pexels-photo-19877487/free-photo-of-sun-through-massive-redwood-trees-in-forest.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-        desc: "isicing elit. Magni fuga dolorem eveniet voluptatem commodi animi!."
+        img: "/project-2.png",
+        desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et hic, mollitia porro, dignissimos aspernatur fuga labore quaerat voluptates neque molestias quae. Incidunt facilis, corporis laborum deserunt illum, impedit ipsa perferendis alias sunt, distinctio autem nesciunt neque assumenda eligendi repudiandae possimus.",
+        button: "visit",
+        link: "https://"
     },
 ];
 
@@ -36,10 +38,10 @@ const Single = ({ item }) => {
 
     const { scrollYProgress } = useScroll({
         target: ref,
-        // offset: ["start start", "end start"]
     });
 
     const y = useTransform(scrollYProgress, [0, 1], ["-300", "300"]);
+
     return (
         <section>
             <div className="container">
@@ -50,7 +52,11 @@ const Single = ({ item }) => {
                     <motion.div className="textContainer" style={{ y }}>
                         <h2>{item.title}</h2>
                         <p>{item.desc}</p>
-                        <button>see demo</button>
+                        {item.button && (
+                            <a href={item.link} target="_blank" rel="noopener noreferrer">
+                                <button>{item.button}</button>
+                            </a>
+                        )}
                     </motion.div>
                 </div>
             </div>
@@ -61,9 +67,6 @@ const Single = ({ item }) => {
 const Portfolio = () => {
 
     const ref = useRef();
-
-
-
 
     const { scrollYProgress } = useScroll({ target: ref, offset: ["end end", "start start",] });
 

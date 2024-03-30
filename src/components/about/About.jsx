@@ -8,7 +8,7 @@ const About = () => {
             <div className="section-container">
                 <div className="section__pic-container">
                     <img
-                        src="./public/nice.png"
+                        src="/nice.png"
                         alt="Profile picture"
                         className="about-pic"
                     />
@@ -17,7 +17,7 @@ const About = () => {
                     <div className="about-containers">
                         <div className="details-container">
                             <img
-                                src="./public/experience_dark.png"
+                                src="/experience_dark.png"
                                 alt="Experience icon"
                                 className="icon"
                             />
@@ -26,7 +26,7 @@ const About = () => {
                         </div>
                         <div className="details-container">
                             <img
-                                src="./public/education_dark.png"
+                                src="/education_dark.png"
                                 alt="Education icon"
                                 className="icon"
                             />

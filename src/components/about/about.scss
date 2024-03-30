@@ -22,7 +22,6 @@
 
     @include mobile {
       font-size: 15px;
-      padding-top: 1px;
     }
   }
 
@@ -75,8 +74,7 @@
     display: flex;
 
     @include mobile {
-      justify-content: space-evenly;
-      padding: 20px;
+      font-size: 15px;
     }
   }
 
@@ -124,6 +122,10 @@
       height: 200px;
       margin: 10px;
     }
+  }
+
+  .text-container {
+    margin: 25px;
   }
 }
 

@@ -5,6 +5,9 @@ import About from "./components/about/About";
 import Contact from "./components/contact/Contact";
 import Cursor from "./components/cursor/cursor";
 import Portfolio from "./components/portfolio/Portfolio";
+import Experience from "./components/experience/Experience";
+
+
 
 
 const App = () => {
@@ -17,6 +20,9 @@ const App = () => {
       </section>
       <section>
         <About />
+      </section>
+      <section>
+        <Experience />
       </section>
 
       <Portfolio />
