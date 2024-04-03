@@ -47,7 +47,7 @@ const experience = () => {
                                     />
                                     <div>
                                         <h3>SASS</h3>
-                                        <p>Intermediate</p>
+                                        <p>Basic</p>
                                     </div>
                                 </article>
                                 <article>

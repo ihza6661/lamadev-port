@@ -10,7 +10,8 @@ const item = [
         id: 1,
         title: "React App",
         img: "/react.jpeg",
-        desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et hic, mollitia porro, dignissimos aspernatur fuga labore quaerat voluptates neque molestias quae. Incidunt facilis, corporis laborum deserunt illum, impedit ipsa perferendis alias sunt, distinctio autem nesciunt neque assumenda eligendi repudiandae possimus.",
+        desc: "a Simpe Portfolio build using react",
+        //desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et hic, mollitia porro, dignissimos aspernatur fuga labore quaerat voluptates neque molestias quae. Incidunt facilis, corporis laborum deserunt illum, impedit ipsa perferendis alias sunt, distinctio autem nesciunt neque assumenda eligendi repudiandae possimus.",
         button: "Visit",
         link: "https://ihza-react.netlify.app/"
 
