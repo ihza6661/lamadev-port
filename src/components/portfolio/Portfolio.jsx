@@ -54,7 +54,7 @@ const Single = ({ item }) => {
                         <h2>{item.title}</h2>
                         <p>{item.desc}</p>
                         {item.button && (
-                            <a href={item.link} target="_blank" rel="noopener noreferrer">
+                            <a href={item.link} target="_blank" >{/*rel="noopener noreferrer"*/}
                                 <button>{item.button}</button>
                             </a>
                         )}

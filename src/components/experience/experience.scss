@@ -102,7 +102,7 @@
     border: white;
     text-align: start;
     margin: 1rem;
-    justify-content: center;
+    justify-content: space-around;
 
     @include mobile {
       border-radius: 20px;
