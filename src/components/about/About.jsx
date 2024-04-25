@@ -35,9 +35,7 @@ const About = () => {
                         </div>
                     </div>
                     <div className="text-container">
-                        <p>
-                            I'm a Passionate Frontend Developer from Pontianak Barat, Indonesia.
-                        </p>
+                        
                     </div>
                 </div>
             </div>
